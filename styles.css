@@ -1,3 +1,6 @@
+html {
+    background-color: #020659;
+}
 
 ul { /*hides content*/
     overflow: hidden;
