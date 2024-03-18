@@ -3,7 +3,11 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-head {
+header {
+    background-color: #030A8C;
+}
+
+nav {
     background-color: #030A8C;
 }
 
