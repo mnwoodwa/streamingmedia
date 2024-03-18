@@ -2,6 +2,15 @@ html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+head {
+    background-color: #030A8C;
+}
+
+body {
+    background-color:#ffffff;
+}
+
 h1 {
     font-size: 1.25em;
 }
@@ -16,6 +25,22 @@ p, dl, dd {
 
 footer p {
     font-size: .75em;
+}
+
+#playlists {
+    background-color: #2699FB;
+}
+
+#playlists section {
+    background-color: #0D8Dfb;
+}
+
+#curated {
+    background-color: #030A8C;
+}
+
+#curated section {
+    background-color: #020873;
 }
 
 ul { /*hides content*/
@@ -70,6 +95,10 @@ input:checked ~ label span:after {
 }
 input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
     top: 0;
+}
+
+aside {
+    background-color: #590242;
 }
 
 @media screen and (min-width:834px) {
