@@ -1,11 +1,11 @@
 html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#ffffff;
 }
 
 header {
     background-color: #030A8C;
+    color:#ffffff;
 }
 
 nav {
@@ -16,6 +16,7 @@ body {
     background-color:#ffffff;
     width: 375px;
     margin: 0 auto;
+    color:#590242;
 }
 
 h1 {
@@ -32,6 +33,7 @@ p, dl, dd {
 
 footer p {
     font-size: .75em;
+    color:#590242;
 }
 
 #trending {
@@ -43,18 +45,22 @@ footer p {
 
 #playlists {
     background-color: #2699FB;
+    color:#590242;
 }
 
 #playlists section {
     background-color: #0D8Dfb;
+    color:#ffffff;
 }
 
 #curated {
     background-color: #030A8C;
+    color:#590242;
 }
 
 #curated section {
     background-color: #020873;
+    color:#ffffff;
 }
 
 ul { /*hides content*/
