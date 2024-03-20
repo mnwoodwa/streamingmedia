@@ -13,6 +13,8 @@ nav {
 
 body {
     background-color:#ffffff;
+    width: 375px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -29,6 +31,13 @@ p, dl, dd {
 
 footer p {
     font-size: .75em;
+}
+
+#trending {
+    width:375px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow: scroll;
 }
 
 #playlists {
@@ -106,6 +115,9 @@ aside {
 }
 
 @media screen and (min-width:834px) {
+    body {
+        width:834px;
+    }
     ul {
         overflow: visible;
         position: absolute;
@@ -115,5 +127,8 @@ aside {
     }
     label span, input {
         display: none;
+    }
+    #trending {
+        width: 834px;
     }
 }
