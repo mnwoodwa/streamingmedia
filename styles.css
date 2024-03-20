@@ -12,6 +12,10 @@ nav {
     background-color: #030A8C;
 }
 
+ul:hover {
+    background-color:#590242;
+}
+
 body {
     background-color:#ffffff;
     width: 375px;
