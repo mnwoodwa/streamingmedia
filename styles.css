@@ -41,6 +41,7 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     overflow: scroll;
+    color:#590242;
 }
 
 #playlists {
