@@ -41,11 +41,12 @@ body {
 h1 {
     font-size: 1.25em;
     color: #ffffff;
-}
-
-a h1 {
     font-variant: small-caps;
 }
+
+/*a h1 {
+    font-variant: small-caps;
+}*/
 
 h2, h3 {
     font-size: 1em;
