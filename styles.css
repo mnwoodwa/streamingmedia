@@ -47,7 +47,7 @@ h1 {
 h2, h3 {
     font-size: 1em;
     background-color: #ffffff;
-    font-variant: small-caps;
+    text-transform: uppercase;
 }
 
 p, dl, dd {
@@ -77,9 +77,9 @@ footer p {
     color:#ffffff;
 }
 
-#playlists section h2 {
+/*#playlists section h2 {
     background-color: #ffffff;
-}
+}*/
 
 #curated {
     background-color: #030A8C;
@@ -91,9 +91,9 @@ footer p {
     color:#ffffff;
 }
 
-#curated section h2 {
+/*#curated section h2 {
     background-color: #ffffff;
-}
+}*/
 
 ul { /*hides content*/
     overflow: hidden;
