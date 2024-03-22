@@ -17,6 +17,11 @@ li {
     text-decoration: none;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 li:hover {
     background-color:#590242;
 }
