@@ -44,10 +44,6 @@ h1 {
     font-variant: small-caps;
 }
 
-/*a h1 {
-    font-variant: small-caps;
-}*/
-
 h2, h3 {
     font-size: 1em;
     background-color: #ffffff;
@@ -81,6 +77,10 @@ footer p {
     color:#ffffff;
 }
 
+#playlists section h2 {
+    background-color: #ffffff;
+}
+
 #curated {
     background-color: #030A8C;
     color:#590242;
@@ -89,6 +89,10 @@ footer p {
 #curated section {
     background-color: #020873;
     color:#ffffff;
+}
+
+#curated section h2 {
+    background-color: #ffffff;
 }
 
 ul { /*hides content*/
