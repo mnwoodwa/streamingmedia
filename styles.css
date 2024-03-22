@@ -10,11 +10,14 @@ header {
 
 nav {
     background-color: #030A8C;
-    display: inline;
-    color: #ffffff;
+    color:#ffffff;
 }
 
-nav:hover {
+li {
+    display: inline;
+}
+
+li:hover {
     background-color:#590242;
 }
 
