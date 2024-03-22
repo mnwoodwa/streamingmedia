@@ -43,6 +43,10 @@ h1 {
     color: #ffffff;
 }
 
+a h1 {
+    font-variant: small-caps;
+}
+
 h2, h3 {
     font-size: 1em;
 }
