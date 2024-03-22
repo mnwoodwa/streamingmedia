@@ -22,7 +22,11 @@ a {
     text-decoration: none;
 }
 
-li:hover {
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
     background-color:#590242;
 }
 
