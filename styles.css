@@ -42,7 +42,7 @@ h1 {
     font-size: 1.25em;
     color: #ffffff;
     font-variant: small-caps;
-    display: inline
+    display: flex;
 }
 
 h2, h3 {
