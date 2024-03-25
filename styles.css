@@ -86,13 +86,10 @@ footer p {
     overflow: scroll;
 }
 
-#playlists section {
+#playlists section, #playlists h3, #playlists img {
     background-color: #0d8dfb;
 }
 
-/*#playlists section h2 {
-    background-color: #ffffff;
-}*/
 
 #curated h2 {
     /*background-color: #030A8C;*/
@@ -107,7 +104,7 @@ footer p {
     overflow: scroll;
 }
 
-#curated section {
+#curated section, #curated h3, #curated img {
     background-color: #030A8C;
 }
 
