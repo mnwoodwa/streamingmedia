@@ -11,12 +11,12 @@ header {
 nav {
     background-color: #030A8C;
     color:#ffffff;
-    list-style-type: none;
 }
 
 li {
     text-decoration: none;
     color:#ffffff;
+    list-style-type: none;
 }
 
 a {
@@ -113,6 +113,8 @@ ul { /*hides content*/
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
+    top: 0;
+    position: absolute;
 }
 label {
     cursor: pointer;
@@ -165,6 +167,10 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 aside {
     background-color: #590242;
+}
+
+footer {
+    text-align: center;
 }
 
 @media screen and (min-width:834px) {
