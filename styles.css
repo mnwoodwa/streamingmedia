@@ -42,7 +42,6 @@ h1 {
     font-size: 1.25em;
     color: #ffffff;
     font-variant: small-caps;
-    display: flex;
 }
 
 h2, h3 {
@@ -80,6 +79,9 @@ footer p {
 #playlists section {
     background-color: #0D8Dfb;
     color:#ffffff;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow: scroll;
 }
 
 /*#playlists section h2 {
@@ -94,6 +96,9 @@ footer p {
 #curated section {
     background-color: #020873;
     color:#ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow: scroll;
 }
 
 /*#curated section h2 {
