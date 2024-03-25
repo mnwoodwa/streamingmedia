@@ -50,6 +50,10 @@ h2, h3 {
     text-transform: uppercase;
 }
 
+header div {
+    background-image:linear-gradient(to right, #2104D9, black );
+}
+
 p, dl, dd {
     font-size: 1em;
 }
