@@ -65,7 +65,7 @@ footer p {
     color:#590242;
 }
 
-#trending section {
+#trending {
     width:375px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -78,7 +78,7 @@ footer p {
     color:#590242;
 }
 
-#playlists section {
+#playlists {
     width: 375px;
     background-color: #0D8Dfb;
     color:#ffffff;
@@ -96,7 +96,7 @@ footer p {
     color:#590242;
 }
 
-#curated section {
+#curated {
     width: 375px;
     background-color: #020873;
     color:#ffffff;
