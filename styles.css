@@ -113,14 +113,16 @@ ul { /*hides content*/
     max-height: 0;
     transition: max-height .2s ease-out;
     top: 0;
-    position: absolute;
+    display: grid;
+    /*position: relative;*/
 }
 label {
     cursor: pointer;
-    display: inline-block;
+    display: grid;
     padding: 28px 20px;
-    position: relative;
+    position: absolute;
     user-select: none;
+    top: 0;
 }
 label span {
     background-color: #ffffff;
