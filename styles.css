@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-    background-color: #030A8C;
+   /* background-color: #030A8C;*/
     color:#ffffff;
 }
 
@@ -73,41 +73,43 @@ footer p {
     color:#590242;
 }
 
-/*#playlists {
-    background-color: #2699FB;
+#playlists h2{
     color:#590242;
-}*/
+}
 
 #playlists {
     width: 375px;
-    background-color: #0D8Dfb;
+    background-color: #2699FB;
     color:#ffffff;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     overflow: scroll;
 }
 
+#playlists section {
+    background-color: #0d8dfb;
+}
+
 /*#playlists section h2 {
     background-color: #ffffff;
 }*/
 
-/*#curated {
-    background-color: #030A8C;
+#curated h2 {
+    /*background-color: #030A8C;*/
     color:#590242;
-}*/
-
+}
 #curated {
     width: 375px;
-    background-color: #020873;
+    background-color: #2104D9;
     color:#ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     overflow: scroll;
 }
 
-/*#curated section h2 {
-    background-color: #ffffff;
-}*/
+#curated section {
+    background-color: #030A8C;
+}
 
 ul { /*hides content*/
     overflow: hidden;
@@ -167,6 +169,9 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 aside {
     background-color: #590242;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
 }
 
 footer {
