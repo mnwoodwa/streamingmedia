@@ -50,7 +50,7 @@ h2, h3 {
     text-transform: uppercase;
 }
 
-header div {
+header div, header div h2 {
     background-image:linear-gradient(to right, #2104D9, black );
 }
 
