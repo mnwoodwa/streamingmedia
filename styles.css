@@ -11,6 +11,7 @@ header {
 nav {
     background-color: #030A8C;
     color:#ffffff;
+    list-style-type: none;
 }
 
 li {
