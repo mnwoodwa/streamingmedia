@@ -41,14 +41,14 @@ body {
 
 h1 {
     font-size: 1.25em;
-    color: #ffffff;
+    /*color: #ffffff;*/
     font-variant: small-caps;
     text-align: center;
 }
 
 h2, h3 {
     font-size: 1em;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     text-transform: uppercase;
 }
 
@@ -65,13 +65,47 @@ footer p {
     color:#590242;
 }
 
-#trending {
-    width:375px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+/*#trending {
     overflow: scroll;
     color:#590242;
+}*/
+
+.scroll {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
 }
+
+.scroll section {
+    margin:10px;
+    position: relative;
+    /*background-color: rgba(255, 255, 255, .75);*/
+}
+
+.scroll div {
+    position: absolute;
+    top: 251px;
+    background-color: rgba(255, 255, 255, .75);
+    padding: 5px;
+    height: 50px;
+    width: 350px;
+}
+
+/*dl {
+    display: flex;
+}
+
+dt {
+    padding-right: 5px;
+}*/
+
+audio {
+    position: absolute;
+    bottom: 150px;
+    left: 5px;
+}
+
 
 #playlists h2{
     color:#590242;
@@ -88,12 +122,15 @@ footer p {
 
 #playlists section, #playlists h3, #playlists img {
     background-color: #0d8dfb;
+    margin: 5px;
+    text-align: center;
 }
 
 
 #curated h2 {
     /*background-color: #030A8C;*/
     color:#590242;
+    padding: 5em;
 }
 #curated {
     width: 375px;
@@ -106,7 +143,46 @@ footer p {
 
 #curated section, #curated h3, #curated img {
     background-color: #030A8C;
+    margin: 5px;
+    text-align: center;
 }
+
+/*#trending::-webkit-scrollbar {
+    width: 15px;
+}
+
+#trending::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 15px #590242;
+}
+
+#trending::-webkit-scrollbar-thumb {
+    background: #590242;
+    border-radius: 5px;
+}
+
+#trending ::-webkit-scrollbar-thumb:hover {
+    background: #020659;
+}
+*/
+
+#playlists::-webkit-scrollbar, #curated::-webkit-scrollbar {
+    width: 15px;
+}
+
+#playlists::-webkit-scrollbar-track, #curated::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 15px #020659;
+}
+
+#playlists::-webkit-scrollbar-thumb, #curated::-webkit-scrollbar-thumb{
+    background: #020659;
+    border-radius: 5px;
+}
+
+#playlists::-webkit-scrollbar-thumb:hover, #curated::-webkit-scrollbar-thumb:hover{
+    background: #ffffff;
+}
+
+
 
 ul { /*hides content*/
     overflow: hidden;
@@ -169,7 +245,9 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 aside {
     background-color: #590242;
     border-radius: 4px;
-    width: 100px;
+    width: 150px;
+    margin: 25px;
+    padding: 10px 28px;
     text-align: center;
 }
 
