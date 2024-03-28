@@ -259,12 +259,22 @@ footer {
     body {
         width:834px;
     }
+    h1 {
+        text-align: left;
+        margin: 3px;
+    }
     ul {
         overflow: visible;
         position: absolute;
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    li {
+        margin: 14px;
+    }
+    aside {
+        float: right;
     }
     label span, input {
         display: none;
